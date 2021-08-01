@@ -3,6 +3,6 @@ import calculateReducer from '../features/calculate/calculateSlice';
 
 export const store = configureStore({
   reducer: {
-    calculate: calculateReducer
+    calculate: calculateReducer,
   }
 });
